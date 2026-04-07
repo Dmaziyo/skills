@@ -1,8 +1,7 @@
----
-name: grill-me
-description: 围绕一个方案或设计持续追问，直到达到共同理解，并逐一解决设计决策树中的各个分支。适用于用户想压力测试一个方案、希望别人来“拷问”设计，或提到“grill me”的场景。
----
+name	grill-me
+description	Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".
+Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one. For each question, provide your recommended answer.
 
-围绕这个方案的每一个方面持续追问我，直到我们形成共同理解。沿着设计决策树的每个分支往下走，逐一解决各个决策之间的依赖关系。
+Ask the questions one at a time.
 
-如果某个问题可以通过探索代码库得到答案，就优先去探索代码库，而不是问用户。
+If a question can be answered by exploring the codebase, explore the codebase instead.
