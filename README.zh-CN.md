@@ -8,6 +8,12 @@
 
 这些技能用于让实现保持清晰、显式且易维护。
 
+### create-plan
+
+通过交互式、迭代式流程创建详细实施计划，重点覆盖现状分析、方案对比、分阶段结构与编码前验证标准。
+
+`npx skills@latest add Dmaziyo/skills/create-plan`
+
 ### code-simplifier
 
 在不改变任何功能的前提下，简化并优化代码的清晰度、一致性与可维护性。默认聚焦于最近修改过的代码，除非另有说明。
@@ -20,7 +26,15 @@
 
 `npx skills@latest add Dmaziyo/skills/grill-me`
 
+### research
+
+通过严格的并行子代理工作流，对指定主题进行代码库调研与文档化，产出“当前实现现状”的结构化技术地图。
+
+`npx skills@latest add Dmaziyo/skills/research`
+
 ## 仓库结构
 
+- [create-plan/SKILL.md](./create-plan/SKILL.md)
 - [code-simplifier/SKILL.md](./code-simplifier/SKILL.md)
 - [grill-me/SKILL.md](./grill-me/SKILL.md)
+- [research/SKILL.md](./research/SKILL.md)
