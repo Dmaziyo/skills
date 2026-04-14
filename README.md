@@ -4,6 +4,19 @@
 
 A collection of agent skills that extend capabilities across planning, development, and tooling.
 
+## Install all skills (one command)
+
+Use the official [`skills` CLI](https://github.com/vercel-labs/skills) (`npm` package `skills`) to install every skill in this repository at once:
+
+```bash
+npx skills@latest add Dmaziyo/skills --all -y
+```
+
+- **Preview** what would be installed (no install): `npx skills@latest add Dmaziyo/skills --list`
+- **From a local clone** of this repo (run at the repository root): `npx skills@latest add . --all -y`
+- **Equivalent** to `--all`: `--skill '*'` (you can add `-a <agent>` to target a specific agent)
+- Install globally (`-g`) or copy instead of symlink (`--copy`) as needed; see `npx skills@latest add --help`.
+
 ## Development Quality
 
 These skills help keep implementation clean, explicit, and maintainable.
